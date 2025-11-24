@@ -1,6 +1,6 @@
 # BPC documentation
 
-Various documents related to developments in the BPC
+Various documents related to developments in the BPC.
 
 
 ## Content
@@ -9,4 +9,5 @@ Various documents related to developments in the BPC
 - Data structures
    - [assemblies](data/assemblies.md)
 - Results & analysis
-  - [QC](results/QC.md)
+  - [workflow](results/workflow.md)
+  - [outputs](results/results.md)
