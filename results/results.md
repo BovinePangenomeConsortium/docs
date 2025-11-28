@@ -24,15 +24,20 @@ done
 
 ### Centromeres
 
-TODO: rerun and upload
+Summarised satellite repeat motifs and genome-wide abundance from `srf`.
 
-Summarised CSV for repeat content+seq+maps?
+ -[Satellite repeat csv [password protected]](https://polybox.ethz.ch/index.php/s/7Pc3kZkn8n6dTeR)
+
 
 ### VCFs
 
-TODO: rerun and add
+Linear-aligned SNP/InDel calls (WIP)
 
-Linear-called VCFs
+### USCOs
+
+Location and status (single, duplicated, fragmented, missing) of 12,594 USCO genes in the atiodactyla lineage.
+
+ -[Artiodactyla ODB12 csv [password protected]](https://polybox.ethz.ch/index.php/s/ayXSYiwtA5HMKkw)
 
 ## Graphs
 
@@ -41,7 +46,6 @@ Linear-called VCFs
 Each file is gzipped tar, containing the `pangene` .gfa, gene copy number count .tsv, and graph bubble .call files.
 
  - [Ensembl ARS-UCD2.0 annotation, clustered [password protected]](https://polybox.ethz.ch/index.php/s/sdyGmgr9deyDPff)
-
 
 
 ### Cactus

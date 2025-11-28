@@ -8,8 +8,14 @@ The assemblies are left at the contig level to avoid an explosion of "N"s in the
 ## Naming scheme
 
 We use a modified version of panSN that seems to be compatible with most downstream tools.
-The format is `sample#haplotype#chromosome:start-end`, where the ":start-end" is the extension.
+The format is `<Animal ID>#<Haplotype>#<Chromosome>:<start>-<end>`, where the ":start-end" is the extension to panSN as used in `cactus`.
 This allows us to track positions of contigs within the reference-scaffolding, making downstream analyses more useful.
+
+ - **Animal ID**: a unique eight digit hexadecimal code assigned to each new contributed animal
+ - **Haplotype**: a single digit corresponding to either a primary/collapsed assembly (0) or haplotype-resolved (1 or 2). Conventionally paternal is 1, maternal is 2.
+ - **Chromosome**: the name of the genomic sequence, with 1-29, X, Y, MT for cattle, with all other contigs called unplaced
+ - **start**/**end**: genomic coordinates that are in the interval [1,length]
+
 
 ## QC
 
@@ -39,7 +45,3 @@ We use a proxy QV by assessing the ratio of InDels to SNPs from the reference-al
    - BUSCOs: Using the artiodactyla_odb12 database
    - {SNPs,InDels}: Number of SNPs or InDels called from linear reference alignments
    - {autosomes,X,Y,MT} covered: Fraction of ARS-UCD2.0 chromosomes covered by linear reference alignments
-
-
-![QC pipeline diagram](../img/QC_pipeline.svg)
-
