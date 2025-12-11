@@ -2,8 +2,13 @@
 
 Tracking changes to the genome archive and associated metadata. 
 
+### 2025-12-10
+- [**metadata**] Renamed Bovine to Bovinae and Cattle to BosTaurus
+- [**metadata**] Remove duplicate public assembly [`88151D78#0`](https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_047652215.1/) already contributed as `7970EEFD#0`
+- [**agc**] Remove that duplicate assembly
+
 ### 2025-12-08
-- [**metadata**] Fix trailing space on "Bos mutus " for E9520DBA
+- [**metadata**] Fix trailing space on "Bos mutus " for `E9520DBA#0`
 - [**metadata**] Change "_n1" to "_representative" for clarity
 - [**metadata**] Added Bovine and Bovina subsets; now "All" includes QC-fails [recommended only for QC jobs]
 
